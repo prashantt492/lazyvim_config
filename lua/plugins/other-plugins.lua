@@ -1,3 +1,3 @@
 return {
-  -- {"prashantt492/friendly-snippets"}
+   {"rafamadriz/friendly-snippets", dev = true}
 }
