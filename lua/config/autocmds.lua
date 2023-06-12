@@ -1,11 +1,11 @@
 -- Autocmds are automatically loaded on the VeryLazy event
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
-require'lspconfig'.texlab.setup{}
-require 'nvim-treesitter.configs'.setup {
-       highlight = {
-         enable = true,
-         disable = { "latex" },
-       },
-       -- more stuff here
-}
+require("lspconfig").texlab.setup({})
+-- require 'nvim-treesitter.configs'.setup {
+--        highlight = {
+--          enable = true,
+--          disable = { "latex" },
+--        },
+-- more stuff here
+-- }
