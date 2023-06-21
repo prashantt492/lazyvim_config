@@ -10,6 +10,6 @@
 --        },
 -- more stuff here
 -- }
-
 -- LSP setups
 require("lspconfig").texlab.setup({})
+require("lspconfig").clangd.setup({})
